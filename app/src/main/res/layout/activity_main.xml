@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌿 Kutira-Kone Marketplace"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zero-Waste Fabric Exchange"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Fabric Scrap"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"/>
+
+    <!-- 🔥 ADD THIS NEW BUTTON -->
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Fabrics"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#1565C0"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/ideasBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design Ideas"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

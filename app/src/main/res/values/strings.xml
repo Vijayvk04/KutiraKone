@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KutiraKone</string>
+
+    <string name="fabric_image">Fabric Image</string>
+
+    <string name="material_format">Material: %1$s</string>
+    <string name="size_format">Size: %1$s</string>
+    <string name="swap_msg">Swap request sent!</string>
+
+    <string name="material">Material</string>
+    <string name="size">Size</string>
+    <string name="swap">Request Swap</string>
+
+    <string name="upload">Upload Fabric Scrap</string>
+    <string name="view">View Fabrics</string>
+    <string name="ideas">Design Ideas</string>
+    <string name="search_hint">Search Cotton / Silk</string>
+    <string name="marketplace_title">Kutira-Kone Marketplace</string>
+    <string name="subtitle">Zero-Waste Fabric Exchange</string>
+</resources>

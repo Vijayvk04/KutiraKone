@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/sizeEt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Size"/>
+
+    <EditText
+        android:id="@+id/materialEt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Material"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/pickImageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"/>
+
+    <Button
+        android:id="@+id/uploadSaveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"/>
+
+</LinearLayout>
